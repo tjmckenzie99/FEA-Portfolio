@@ -1,0 +1,1 @@
+These are files are ran FEA (Altair Inspire) on. These are not all the parts, however. I helped conducted analysis on variety of things I cannot show here.
