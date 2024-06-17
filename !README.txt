@@ -1,1 +1,1 @@
-These are files are ran FEA (Altair Inspire) on. These are not all the parts, however. I helped conducted analysis on variety of things I cannot show here.
+These are files are ran FEA (Altair Inspire) on. These are not all the parts, however. I helped conducted analysis on variety of things I cannot show here. We were aiming for a FOS of 1 or higher (For note we only were worried about the factor of safety on the part rather than any bolt so minimum FOS is inaccurate.) 
