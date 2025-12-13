@@ -1,0 +1,635 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2025 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2025 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 25,2024,318,1
+
+
+    Ansys Mechanical Enterprise
+
+    ______________________________________________________________________________________________________________________________
+    Initializing transient simulation
+
+
+
+    Position correction is enabled.
+    Velocity correction is enabled.
+    Correction uses Pure Kinematic.
+    Assembly uses Inertia Matrix.
+
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Updating Relations Based On Internal Joint Representation
+    Initializing Transient Analysis
+
+    ______________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    Convergence reached after 1 Iteration
+
+
+    Analysis of model redundancies:
+    Joint Revolute - Rocker\Rocker To Connecting Rod 1\Connecting Rod 1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
+ 
+
+    _________________________________________________________________________
+    Starting transient simulation
+
+    Using Runge-Kutta 4 time integration
+
+    Model Summary:
+
+    Number of effective bodies: 5
+    Total Number of Joints: 5 (4 based on degrees of freedom, 1 based on constraint equations)
+        4 Joints of Type Revolute
+        1 Joint of Type Weld
+
+    Number of Physical Degrees of Freedom: 3
+
+    _________________________________________________________________________
+
+
+    Time:      0 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotational Velocity ( Load Step 0 )" is active
+ 
+
+    End of Transient Initialization
+    Current Time:      0 s Current time step 1e-07 s
+    Current Time: 4.27e-05 s Current time step 1e-05 s
+    Current Time: 0.0001427 s Current time step 1e-05 s
+    Current Time: 0.0002427 s Current time step 1e-05 s
+    Current Time: 0.0003427 s Current time step 1e-05 s
+    Current Time: 0.0004427 s Current time step 1e-05 s
+    Current Time: 0.0005427 s Current time step 1e-05 s
+    Current Time: 0.0006427 s Current time step 1e-05 s
+    Current Time: 0.0007427 s Current time step 1e-05 s
+    Current Time: 0.0008427 s Current time step 1e-05 s
+    Current Time: 0.0009427 s Current time step 1e-05 s
+    Current Time: 0.001043 s Current time step 1e-05 s
+    Current Time: 0.001143 s Current time step 1e-05 s
+    Current Time: 0.001243 s Current time step 1e-05 s
+    Current Time: 0.001343 s Current time step 1e-05 s
+    Current Time: 0.001443 s Current time step 1e-05 s
+    Current Time: 0.001543 s Current time step 1e-05 s
+    Current Time: 0.001643 s Current time step 1e-05 s
+    Current Time: 0.001743 s Current time step 1e-05 s
+    Current Time: 0.001843 s Current time step 1e-05 s
+    Current Time: 0.001943 s Current time step 1e-05 s
+    Current Time: 0.002043 s Current time step 1e-05 s
+    Current Time: 0.002143 s Current time step 1e-05 s
+    Current Time: 0.002243 s Current time step 1e-05 s
+    Current Time: 0.002343 s Current time step 1e-05 s
+    Current Time: 0.002443 s Current time step 1e-05 s
+    Current Time: 0.002543 s Current time step 1e-05 s
+    Current Time: 0.002643 s Current time step 1e-05 s
+    Current Time: 0.002743 s Current time step 1e-05 s
+    Current Time: 0.002843 s Current time step 1e-05 s
+    Current Time: 0.002943 s Current time step 1e-05 s
+    Current Time: 0.003043 s Current time step 1e-05 s
+    Current Time: 0.003143 s Current time step 1e-05 s
+    Current Time: 0.003243 s Current time step 1e-05 s
+    Current Time: 0.003343 s Current time step 1e-05 s
+    Current Time: 0.003443 s Current time step 1e-05 s
+    Current Time: 0.003543 s Current time step 1e-05 s
+    Current Time: 0.003643 s Current time step 1e-05 s
+    Current Time: 0.003743 s Current time step 1e-05 s
+    Current Time: 0.003843 s Current time step 1e-05 s
+    Current Time: 0.003943 s Current time step 1e-05 s
+    Current Time: 0.004043 s Current time step 1e-05 s
+    Current Time: 0.004143 s Current time step 1e-05 s
+    Current Time: 0.004243 s Current time step 1e-05 s
+    Current Time: 0.004343 s Current time step 1e-05 s
+    Current Time: 0.004443 s Current time step 1e-05 s
+    Current Time: 0.004543 s Current time step 1e-05 s
+    Current Time: 0.004643 s Current time step 1e-05 s
+    Current Time: 0.004743 s Current time step 1e-05 s
+    Current Time: 0.004843 s Current time step 1e-05 s
+    Current Time: 0.004943 s Current time step 1e-05 s
+    Current Time: 0.005043 s Current time step 1e-05 s
+    Current Time: 0.005143 s Current time step 1e-05 s
+    Current Time: 0.005243 s Current time step 1e-05 s
+    Current Time: 0.005343 s Current time step 1e-05 s
+    Current Time: 0.005443 s Current time step 1e-05 s
+    Current Time: 0.005543 s Current time step 1e-05 s
+    Current Time: 0.005643 s Current time step 1e-05 s
+    Current Time: 0.005743 s Current time step 1e-05 s
+    Current Time: 0.005843 s Current time step 1e-05 s
+    Current Time: 0.005943 s Current time step 1e-05 s
+    Current Time: 0.006043 s Current time step 1e-05 s
+    Current Time: 0.006143 s Current time step 1e-05 s
+    Current Time: 0.006243 s Current time step 1e-05 s
+    Current Time: 0.006343 s Current time step 1e-05 s
+    Current Time: 0.006443 s Current time step 1e-05 s
+    Current Time: 0.006543 s Current time step 1e-05 s
+    Current Time: 0.006643 s Current time step 1e-05 s
+    Current Time: 0.006743 s Current time step 1e-05 s
+    Current Time: 0.006843 s Current time step 1e-05 s
+    Current Time: 0.006943 s Current time step 1e-05 s
+    Current Time: 0.007043 s Current time step 1e-05 s
+    Current Time: 0.007143 s Current time step 1e-05 s
+    Current Time: 0.007243 s Current time step 1e-05 s
+    Current Time: 0.007343 s Current time step 1e-05 s
+    Current Time: 0.007443 s Current time step 1e-05 s
+    Current Time: 0.007543 s Current time step 1e-05 s
+    Current Time: 0.007643 s Current time step 1e-05 s
+    Current Time: 0.007743 s Current time step 1e-05 s
+    Current Time: 0.007843 s Current time step 1e-05 s
+    Current Time: 0.007943 s Current time step 1e-05 s
+    Current Time: 0.008043 s Current time step 1e-05 s
+    Current Time: 0.008143 s Current time step 1e-05 s
+    Current Time: 0.008243 s Current time step 1e-05 s
+    Current Time: 0.008343 s Current time step 1e-05 s
+    Current Time: 0.008443 s Current time step 1e-05 s
+    Current Time: 0.008543 s Current time step 1e-05 s
+    Current Time: 0.008643 s Current time step 1e-05 s
+    Current Time: 0.008743 s Current time step 1e-05 s
+    Current Time: 0.008843 s Current time step 1e-05 s
+    Current Time: 0.008943 s Current time step 1e-05 s
+    Current Time: 0.009043 s Current time step 1e-05 s
+    Current Time: 0.009143 s Current time step 1e-05 s
+    Current Time: 0.009243 s Current time step 1e-05 s
+    Current Time: 0.009343 s Current time step 1e-05 s
+    Current Time: 0.009443 s Current time step 1e-05 s
+    Current Time: 0.009543 s Current time step 1e-05 s
+    Current Time: 0.009643 s Current time step 1e-05 s
+    Current Time: 0.009743 s Current time step 1e-05 s
+    Current Time: 0.009843 s Current time step 1e-05 s
+    Current Time: 0.009943 s Current time step 1e-05 s
+    Current Time: 0.01004 s Current time step 1e-05 s
+    Current Time: 0.01014 s Current time step 1e-05 s
+    Current Time: 0.01024 s Current time step 1e-05 s
+    Current Time: 0.01034 s Current time step 1e-05 s
+    Current Time: 0.01044 s Current time step 1e-05 s
+    Current Time: 0.01054 s Current time step 1e-05 s
+    Current Time: 0.01064 s Current time step 1e-05 s
+    Current Time: 0.01074 s Current time step 1e-05 s
+    Current Time: 0.01084 s Current time step 1e-05 s
+    Current Time: 0.01094 s Current time step 1e-05 s
+    Current Time: 0.01104 s Current time step 1e-05 s
+    Current Time: 0.01114 s Current time step 1e-05 s
+    Current Time: 0.01124 s Current time step 1e-05 s
+    Current Time: 0.01134 s Current time step 1e-05 s
+    Current Time: 0.01144 s Current time step 1e-05 s
+    Current Time: 0.01154 s Current time step 1e-05 s
+    Current Time: 0.01164 s Current time step 1e-05 s
+    Current Time: 0.01174 s Current time step 1e-05 s
+    Current Time: 0.01184 s Current time step 1e-05 s
+    Current Time: 0.01194 s Current time step 1e-05 s
+    Current Time: 0.01204 s Current time step 1e-05 s
+    Current Time: 0.01214 s Current time step 1e-05 s
+    Current Time: 0.01224 s Current time step 1e-05 s
+    Current Time: 0.01234 s Current time step 1e-05 s
+    Current Time: 0.01244 s Current time step 1e-05 s
+    Current Time: 0.01254 s Current time step 1e-05 s
+    Current Time: 0.01264 s Current time step 1e-05 s
+    Current Time: 0.01274 s Current time step 1e-05 s
+    Current Time: 0.01284 s Current time step 1e-05 s
+    Current Time: 0.01294 s Current time step 1e-05 s
+    Current Time: 0.01304 s Current time step 1e-05 s
+    Current Time: 0.01314 s Current time step 1e-05 s
+    Current Time: 0.01324 s Current time step 1e-05 s
+    Current Time: 0.01334 s Current time step 1e-05 s
+    Current Time: 0.01344 s Current time step 1e-05 s
+    Current Time: 0.01354 s Current time step 1e-05 s
+    Current Time: 0.01364 s Current time step 1e-05 s
+    Current Time: 0.01374 s Current time step 1e-05 s
+    Current Time: 0.01384 s Current time step 1e-05 s
+    Current Time: 0.01394 s Current time step 1e-05 s
+    Current Time: 0.01404 s Current time step 1e-05 s
+    Current Time: 0.01414 s Current time step 1e-05 s
+    Current Time: 0.01424 s Current time step 1e-05 s
+    Current Time: 0.01434 s Current time step 1e-05 s
+    Current Time: 0.01444 s Current time step 1e-05 s
+    Current Time: 0.01454 s Current time step 1e-05 s
+    Current Time: 0.01464 s Current time step 1e-05 s
+    Current Time: 0.01474 s Current time step 1e-05 s
+    Current Time: 0.01484 s Current time step 1e-05 s
+    Current Time: 0.01494 s Current time step 1e-05 s
+    Current Time: 0.01504 s Current time step 1e-05 s
+    Current Time: 0.01514 s Current time step 1e-05 s
+    Current Time: 0.01524 s Current time step 1e-05 s
+    Current Time: 0.01534 s Current time step 1e-05 s
+    Current Time: 0.01544 s Current time step 1e-05 s
+    Current Time: 0.01554 s Current time step 1e-05 s
+    Current Time: 0.01564 s Current time step 1e-05 s
+    Current Time: 0.01574 s Current time step 1e-05 s
+    Current Time: 0.01584 s Current time step 1e-05 s
+    Current Time: 0.01594 s Current time step 1e-05 s
+    Current Time: 0.01604 s Current time step 1e-05 s
+    Current Time: 0.01614 s Current time step 1e-05 s
+    Current Time: 0.01624 s Current time step 1e-05 s
+    Current Time: 0.01634 s Current time step 1e-05 s
+    Current Time: 0.01644 s Current time step 1e-05 s
+    Current Time: 0.01654 s Current time step 1e-05 s
+    Current Time: 0.01664 s Current time step 1e-05 s
+    Current Time: 0.01674 s Current time step 1e-05 s
+    Current Time: 0.01684 s Current time step 1e-05 s
+    Current Time: 0.01694 s Current time step 1e-05 s
+    Current Time: 0.01704 s Current time step 1e-05 s
+    Current Time: 0.01714 s Current time step 1e-05 s
+    Current Time: 0.01724 s Current time step 1e-05 s
+    Current Time: 0.01734 s Current time step 1e-05 s
+    Current Time: 0.01744 s Current time step 1e-05 s
+    Current Time: 0.01754 s Current time step 1e-05 s
+    Current Time: 0.01764 s Current time step 1e-05 s
+    Current Time: 0.01774 s Current time step 1e-05 s
+    Current Time: 0.01784 s Current time step 1e-05 s
+    Current Time: 0.01794 s Current time step 1e-05 s
+    Current Time: 0.01804 s Current time step 1e-05 s
+    Current Time: 0.01814 s Current time step 1e-05 s
+    Current Time: 0.01824 s Current time step 1e-05 s
+    Current Time: 0.01834 s Current time step 1e-05 s
+    Current Time: 0.01844 s Current time step 1e-05 s
+    Current Time: 0.01854 s Current time step 1e-05 s
+    Current Time: 0.01864 s Current time step 1e-05 s
+    Current Time: 0.01874 s Current time step 1e-05 s
+    Current Time: 0.01884 s Current time step 1e-05 s
+    Current Time: 0.01894 s Current time step 1e-05 s
+    Current Time: 0.01904 s Current time step 1e-05 s
+    Current Time: 0.01914 s Current time step 1e-05 s
+    Current Time: 0.01924 s Current time step 1e-05 s
+    Current Time: 0.01934 s Current time step 1e-05 s
+    Current Time: 0.01944 s Current time step 1e-05 s
+    Current Time: 0.01954 s Current time step 1e-05 s
+    Current Time: 0.01964 s Current time step 1e-05 s
+    Current Time: 0.01974 s Current time step 1e-05 s
+    Current Time: 0.01984 s Current time step 1e-05 s
+    Current Time: 0.01994 s Current time step 1e-05 s
+    Current Time: 0.02004 s Current time step 1e-05 s
+    Current Time: 0.02014 s Current time step 1e-05 s
+    Current Time: 0.02024 s Current time step 1e-05 s
+    Current Time: 0.02034 s Current time step 1e-05 s
+    Current Time: 0.02044 s Current time step 1e-05 s
+    Current Time: 0.02054 s Current time step 1e-05 s
+    Current Time: 0.02064 s Current time step 1e-05 s
+    Current Time: 0.02074 s Current time step 1e-05 s
+    Current Time: 0.02084 s Current time step 1e-05 s
+    Current Time: 0.02094 s Current time step 1e-05 s
+    Current Time: 0.02104 s Current time step 1e-05 s
+    Current Time: 0.02114 s Current time step 1e-05 s
+    Current Time: 0.02124 s Current time step 1e-05 s
+    Current Time: 0.02134 s Current time step 1e-05 s
+    Current Time: 0.02144 s Current time step 1e-05 s
+    Current Time: 0.02154 s Current time step 1e-05 s
+    Current Time: 0.02164 s Current time step 1e-05 s
+    Current Time: 0.02174 s Current time step 1e-05 s
+    Current Time: 0.02184 s Current time step 1e-05 s
+    Current Time: 0.02194 s Current time step 1e-05 s
+    Current Time: 0.02204 s Current time step 1e-05 s
+    Current Time: 0.02214 s Current time step 1e-05 s
+    Current Time: 0.02224 s Current time step 1e-05 s
+    Current Time: 0.02234 s Current time step 1e-05 s
+    Current Time: 0.02244 s Current time step 1e-05 s
+    Current Time: 0.02254 s Current time step 1e-05 s
+    Current Time: 0.02264 s Current time step 1e-05 s
+    Current Time: 0.02274 s Current time step 1e-05 s
+    Current Time: 0.02284 s Current time step 1e-05 s
+    Current Time: 0.02294 s Current time step 1e-05 s
+    Current Time: 0.02304 s Current time step 1e-05 s
+    Current Time: 0.02314 s Current time step 1e-05 s
+    Current Time: 0.02324 s Current time step 1e-05 s
+    Current Time: 0.02334 s Current time step 1e-05 s
+    Current Time: 0.02344 s Current time step 1e-05 s
+    Current Time: 0.02354 s Current time step 1e-05 s
+    Current Time: 0.02364 s Current time step 1e-05 s
+    Current Time: 0.02374 s Current time step 1e-05 s
+    Current Time: 0.02384 s Current time step 1e-05 s
+    Current Time: 0.02394 s Current time step 1e-05 s
+    Current Time: 0.02404 s Current time step 1e-05 s
+    Current Time: 0.02414 s Current time step 1e-05 s
+    Current Time: 0.02424 s Current time step 1e-05 s
+    Current Time: 0.02434 s Current time step 1e-05 s
+    Current Time: 0.02444 s Current time step 1e-05 s
+    Current Time: 0.02454 s Current time step 1e-05 s
+    Current Time: 0.02464 s Current time step 1e-05 s
+    Current Time: 0.02474 s Current time step 1e-05 s
+    Current Time: 0.02484 s Current time step 1e-05 s
+    Current Time: 0.02494 s Current time step 1e-05 s
+    Current Time: 0.02504 s Current time step 1e-05 s
+    Current Time: 0.02514 s Current time step 1e-05 s
+    Current Time: 0.02524 s Current time step 1e-05 s
+    Current Time: 0.02534 s Current time step 1e-05 s
+    Current Time: 0.02544 s Current time step 1e-05 s
+    Current Time: 0.02554 s Current time step 1e-05 s
+    Current Time: 0.02564 s Current time step 1e-05 s
+    Current Time: 0.02574 s Current time step 1e-05 s
+    Current Time: 0.02584 s Current time step 1e-05 s
+    Current Time: 0.02594 s Current time step 1e-05 s
+    Current Time: 0.02604 s Current time step 1e-05 s
+    Current Time: 0.02614 s Current time step 1e-05 s
+    Current Time: 0.02624 s Current time step 1e-05 s
+    Current Time: 0.02634 s Current time step 1e-05 s
+    Current Time: 0.02644 s Current time step 1e-05 s
+    Current Time: 0.02654 s Current time step 1e-05 s
+    Current Time: 0.02664 s Current time step 1e-05 s
+    Current Time: 0.02674 s Current time step 1e-05 s
+    Current Time: 0.02684 s Current time step 1e-05 s
+    Current Time: 0.02694 s Current time step 1e-05 s
+    Current Time: 0.02704 s Current time step 1e-05 s
+    Current Time: 0.02714 s Current time step 1e-05 s
+    Current Time: 0.02724 s Current time step 1e-05 s
+    Current Time: 0.02734 s Current time step 1e-05 s
+    Current Time: 0.02744 s Current time step 1e-05 s
+    Current Time: 0.02754 s Current time step 1e-05 s
+    Current Time: 0.02764 s Current time step 1e-05 s
+    Current Time: 0.02774 s Current time step 1e-05 s
+    Current Time: 0.02784 s Current time step 1e-05 s
+    Current Time: 0.02794 s Current time step 1e-05 s
+    Current Time: 0.02804 s Current time step 1e-05 s
+    Current Time: 0.02814 s Current time step 1e-05 s
+    Current Time: 0.02824 s Current time step 1e-05 s
+    Current Time: 0.02834 s Current time step 1e-05 s
+    Current Time: 0.02844 s Current time step 1e-05 s
+    Current Time: 0.02854 s Current time step 1e-05 s
+    Current Time: 0.02864 s Current time step 1e-05 s
+    Current Time: 0.02874 s Current time step 1e-05 s
+    Current Time: 0.02884 s Current time step 1e-05 s
+    Current Time: 0.02894 s Current time step 1e-05 s
+    Current Time: 0.02904 s Current time step 1e-05 s
+    Current Time: 0.02914 s Current time step 1e-05 s
+    Current Time: 0.02924 s Current time step 1e-05 s
+    Current Time: 0.02934 s Current time step 1e-05 s
+    Current Time: 0.02944 s Current time step 1e-05 s
+    Current Time: 0.02954 s Current time step 1e-05 s
+    Current Time: 0.02964 s Current time step 1e-05 s
+    Current Time: 0.02974 s Current time step 1e-05 s
+    Current Time: 0.02984 s Current time step 1e-05 s
+    Current Time: 0.02994 s Current time step 1e-05 s
+    Current Time: 0.03004 s Current time step 1e-05 s
+    Current Time: 0.03014 s Current time step 1e-05 s
+    Current Time: 0.03024 s Current time step 1e-05 s
+    Current Time: 0.03034 s Current time step 1e-05 s
+    Current Time: 0.03044 s Current time step 1e-05 s
+    Current Time: 0.03054 s Current time step 1e-05 s
+    Current Time: 0.03064 s Current time step 1e-05 s
+    Current Time: 0.03074 s Current time step 1e-05 s
+    Current Time: 0.03084 s Current time step 1e-05 s
+    Current Time: 0.03094 s Current time step 1e-05 s
+    Current Time: 0.03104 s Current time step 1e-05 s
+    Current Time: 0.03114 s Current time step 1e-05 s
+    Current Time: 0.03124 s Current time step 1e-05 s
+    Current Time: 0.03134 s Current time step 1e-05 s
+    Current Time: 0.03144 s Current time step 1e-05 s
+    Current Time: 0.03154 s Current time step 1e-05 s
+    Current Time: 0.03164 s Current time step 1e-05 s
+    Current Time: 0.03174 s Current time step 1e-05 s
+    Current Time: 0.03184 s Current time step 1e-05 s
+    Current Time: 0.03194 s Current time step 1e-05 s
+    Current Time: 0.03204 s Current time step 1e-05 s
+    Current Time: 0.03214 s Current time step 1e-05 s
+    Current Time: 0.03224 s Current time step 1e-05 s
+    Current Time: 0.03234 s Current time step 1e-05 s
+    Current Time: 0.03244 s Current time step 1e-05 s
+    Current Time: 0.03254 s Current time step 1e-05 s
+    Current Time: 0.03264 s Current time step 1e-05 s
+    Current Time: 0.03274 s Current time step 1e-05 s
+    Current Time: 0.03284 s Current time step 1e-05 s
+    Current Time: 0.03294 s Current time step 1e-05 s
+    Current Time: 0.03304 s Current time step 1e-05 s
+    Current Time: 0.03314 s Current time step 1e-05 s
+    Current Time: 0.03324 s Current time step 1e-05 s
+    Current Time: 0.03334 s Current time step 1e-05 s
+    Current Time: 0.03344 s Current time step 1e-05 s
+    Current Time: 0.03354 s Current time step 1e-05 s
+    Current Time: 0.03364 s Current time step 1e-05 s
+    Current Time: 0.03374 s Current time step 1e-05 s
+    Current Time: 0.03384 s Current time step 1e-05 s
+    Current Time: 0.03394 s Current time step 1e-05 s
+    Current Time: 0.03404 s Current time step 1e-05 s
+    Current Time: 0.03414 s Current time step 1e-05 s
+    Current Time: 0.03424 s Current time step 1e-05 s
+    Current Time: 0.03434 s Current time step 1e-05 s
+    Current Time: 0.03444 s Current time step 1e-05 s
+    Current Time: 0.03454 s Current time step 1e-05 s
+    Current Time: 0.03464 s Current time step 1e-05 s
+    Current Time: 0.03474 s Current time step 1e-05 s
+    Current Time: 0.03484 s Current time step 1e-05 s
+    Current Time: 0.03494 s Current time step 1e-05 s
+    Current Time: 0.03504 s Current time step 1e-05 s
+    Current Time: 0.03514 s Current time step 1e-05 s
+    Current Time: 0.03524 s Current time step 1e-05 s
+    Current Time: 0.03534 s Current time step 1e-05 s
+    Current Time: 0.03544 s Current time step 1e-05 s
+    Current Time: 0.03554 s Current time step 1e-05 s
+    Current Time: 0.03564 s Current time step 1e-05 s
+    Current Time: 0.03574 s Current time step 1e-05 s
+    Current Time: 0.03584 s Current time step 1e-05 s
+    Current Time: 0.03594 s Current time step 1e-05 s
+    Current Time: 0.03604 s Current time step 1e-05 s
+    Current Time: 0.03614 s Current time step 1e-05 s
+    Current Time: 0.03624 s Current time step 1e-05 s
+    Current Time: 0.03634 s Current time step 1e-05 s
+    Current Time: 0.03644 s Current time step 1e-05 s
+    Current Time: 0.03654 s Current time step 1e-05 s
+    Current Time: 0.03664 s Current time step 1e-05 s
+    Current Time: 0.03674 s Current time step 1e-05 s
+    Current Time: 0.03684 s Current time step 1e-05 s
+    Current Time: 0.03694 s Current time step 1e-05 s
+    Current Time: 0.03704 s Current time step 1e-05 s
+    Current Time: 0.03714 s Current time step 1e-05 s
+    Current Time: 0.03724 s Current time step 1e-05 s
+    Current Time: 0.03734 s Current time step 1e-05 s
+    Current Time: 0.03744 s Current time step 1e-05 s
+    Current Time: 0.03754 s Current time step 1e-05 s
+    Current Time: 0.03764 s Current time step 1e-05 s
+    Current Time: 0.03774 s Current time step 1e-05 s
+    Current Time: 0.03784 s Current time step 1e-05 s
+    Current Time: 0.03794 s Current time step 1e-05 s
+    Current Time: 0.03804 s Current time step 1e-05 s
+    Current Time: 0.03814 s Current time step 1e-05 s
+    Current Time: 0.03824 s Current time step 1e-05 s
+    Current Time: 0.03834 s Current time step 1e-05 s
+    Current Time: 0.03844 s Current time step 1e-05 s
+    Current Time: 0.03854 s Current time step 1e-05 s
+    Current Time: 0.03864 s Current time step 1e-05 s
+    Current Time: 0.03874 s Current time step 1e-05 s
+    Current Time: 0.03884 s Current time step 1e-05 s
+    Current Time: 0.03894 s Current time step 1e-05 s
+    Current Time: 0.03904 s Current time step 1e-05 s
+    Current Time: 0.03914 s Current time step 1e-05 s
+    Current Time: 0.03924 s Current time step 1e-05 s
+    Current Time: 0.03934 s Current time step 1e-05 s
+    Current Time: 0.03944 s Current time step 1e-05 s
+    Current Time: 0.03954 s Current time step 1e-05 s
+    Current Time: 0.03964 s Current time step 1e-05 s
+    Current Time: 0.03974 s Current time step 1e-05 s
+    Current Time: 0.03984 s Current time step 1e-05 s
+    Current Time: 0.03994 s Current time step 1e-05 s
+    Current Time: 0.04004 s Current time step 1e-05 s
+    Current Time: 0.04014 s Current time step 1e-05 s
+    Current Time: 0.04024 s Current time step 1e-05 s
+    Current Time: 0.04034 s Current time step 1e-05 s
+    Current Time: 0.04044 s Current time step 1e-05 s
+    Current Time: 0.04054 s Current time step 1e-05 s
+    Current Time: 0.04064 s Current time step 1e-05 s
+    Current Time: 0.04074 s Current time step 1e-05 s
+    Current Time: 0.04084 s Current time step 1e-05 s
+    Current Time: 0.04094 s Current time step 1e-05 s
+    Current Time: 0.04104 s Current time step 1e-05 s
+    Current Time: 0.04114 s Current time step 1e-05 s
+    Current Time: 0.04124 s Current time step 1e-05 s
+    Current Time: 0.04134 s Current time step 1e-05 s
+    Current Time: 0.04144 s Current time step 1e-05 s
+    Current Time: 0.04154 s Current time step 1e-05 s
+    Current Time: 0.04164 s Current time step 1e-05 s
+    Current Time: 0.04174 s Current time step 1e-05 s
+    Current Time: 0.04184 s Current time step 1e-05 s
+    Current Time: 0.04194 s Current time step 1e-05 s
+    Current Time: 0.04204 s Current time step 1e-05 s
+    Current Time: 0.04214 s Current time step 1e-05 s
+    Current Time: 0.04224 s Current time step 1e-05 s
+    Current Time: 0.04234 s Current time step 1e-05 s
+    Current Time: 0.04244 s Current time step 1e-05 s
+    Current Time: 0.04254 s Current time step 1e-05 s
+    Current Time: 0.04264 s Current time step 1e-05 s
+    Current Time: 0.04274 s Current time step 1e-05 s
+    Current Time: 0.04284 s Current time step 1e-05 s
+    Current Time: 0.04294 s Current time step 1e-05 s
+    Current Time: 0.04304 s Current time step 1e-05 s
+    Current Time: 0.04314 s Current time step 1e-05 s
+    Current Time: 0.04324 s Current time step 1e-05 s
+    Current Time: 0.04334 s Current time step 1e-05 s
+    Current Time: 0.04344 s Current time step 1e-05 s
+    Current Time: 0.04354 s Current time step 1e-05 s
+    Current Time: 0.04364 s Current time step 1e-05 s
+    Current Time: 0.04374 s Current time step 1e-05 s
+    Current Time: 0.04384 s Current time step 1e-05 s
+    Current Time: 0.04394 s Current time step 1e-05 s
+    Current Time: 0.04404 s Current time step 1e-05 s
+    Current Time: 0.04414 s Current time step 1e-05 s
+    Current Time: 0.04424 s Current time step 1e-05 s
+    Current Time: 0.04434 s Current time step 1e-05 s
+    Current Time: 0.04444 s Current time step 1e-05 s
+    Current Time: 0.04454 s Current time step 1e-05 s
+    Current Time: 0.04464 s Current time step 1e-05 s
+    Current Time: 0.04474 s Current time step 1e-05 s
+    Current Time: 0.04484 s Current time step 1e-05 s
+    Current Time: 0.04494 s Current time step 1e-05 s
+    Current Time: 0.04504 s Current time step 1e-05 s
+    Current Time: 0.04514 s Current time step 1e-05 s
+    Current Time: 0.04524 s Current time step 1e-05 s
+    Current Time: 0.04534 s Current time step 1e-05 s
+    Current Time: 0.04544 s Current time step 1e-05 s
+    Current Time: 0.04554 s Current time step 1e-05 s
+    Current Time: 0.04564 s Current time step 1e-05 s
+    Current Time: 0.04574 s Current time step 1e-05 s
+    Current Time: 0.04584 s Current time step 1e-05 s
+    Current Time: 0.04594 s Current time step 1e-05 s
+    Current Time: 0.04604 s Current time step 1e-05 s
+    Current Time: 0.04614 s Current time step 1e-05 s
+    Current Time: 0.04624 s Current time step 1e-05 s
+    Current Time: 0.04634 s Current time step 1e-05 s
+    Current Time: 0.04644 s Current time step 1e-05 s
+    Current Time: 0.04654 s Current time step 1e-05 s
+    Current Time: 0.04664 s Current time step 1e-05 s
+    Current Time: 0.04674 s Current time step 1e-05 s
+    Current Time: 0.04684 s Current time step 1e-05 s
+    Current Time: 0.04694 s Current time step 1e-05 s
+    Current Time: 0.04704 s Current time step 1e-05 s
+    Current Time: 0.04714 s Current time step 1e-05 s
+    Current Time: 0.04724 s Current time step 1e-05 s
+    Current Time: 0.04734 s Current time step 1e-05 s
+    Current Time: 0.04744 s Current time step 1e-05 s
+    Current Time: 0.04754 s Current time step 1e-05 s
+    Current Time: 0.04764 s Current time step 1e-05 s
+    Current Time: 0.04774 s Current time step 1e-05 s
+    Current Time: 0.04784 s Current time step 1e-05 s
+    Current Time: 0.04794 s Current time step 1e-05 s
+    Current Time: 0.04804 s Current time step 1e-05 s
+    Current Time: 0.04814 s Current time step 1e-05 s
+    Current Time: 0.04824 s Current time step 1e-05 s
+    Current Time: 0.04834 s Current time step 1e-05 s
+    Current Time: 0.04844 s Current time step 1e-05 s
+    Current Time: 0.04854 s Current time step 1e-05 s
+    Current Time: 0.04864 s Current time step 1e-05 s
+    Current Time: 0.04874 s Current time step 1e-05 s
+    Current Time: 0.04884 s Current time step 1e-05 s
+    Current Time: 0.04894 s Current time step 1e-05 s
+    Current Time: 0.04904 s Current time step 1e-05 s
+    Current Time: 0.04914 s Current time step 1e-05 s
+    Current Time: 0.04924 s Current time step 1e-05 s
+    Current Time: 0.04934 s Current time step 1e-05 s
+    Current Time: 0.04944 s Current time step 1e-05 s
+    Current Time: 0.04954 s Current time step 1e-05 s
+    Current Time: 0.04964 s Current time step 1e-05 s
+    Current Time: 0.04974 s Current time step 1e-05 s
+    Current Time: 0.04984 s Current time step 1e-05 s
+    Current Time: 0.04994 s Current time step 1e-05 s
+
+    ______________________________________________________________________________________________________________________________
+
+    Total number of time steps: 5006
+    Average time step: 9.98801e-06
+
+    Number of rejected time steps: 0
+    Number of discontinuities: 0
+    Number of saved transient configurations: 5007
+    Maximum relative error: 1.81489e-06 (%)
+    Number of position correction iterations: 5007
+    Number of velocity correction steps: 4996
+
+    End of Transient Simulation. CPU Time 2.95312 Elapsed Time 2.962
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Analysis of model redundancies:
+    Joint Revolute - Rocker\Rocker To Connecting Rod 1\Connecting Rod 1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
